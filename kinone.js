@@ -4,3 +4,8 @@
 // params: API に渡すパラメータをオブジェクトで指定
 // callback: APIの呼び出しが成功したら実行される関数（省略可）
 // opt_errback: APIの呼び出しが失敗したら実行される関数（省略可）
+
+(function(){
+    'use strict';
+    //ここに実行したいことを書く
+})

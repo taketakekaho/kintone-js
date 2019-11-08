@@ -5,9 +5,8 @@
   
     function getRecords(event) {
         var params = {
-            //appId入れ替える
-            'app': 39,
-            //以下だと「申請者」フィールドがログインユーザと一致し、かつステータスが「申請中」である条件という意味
+            'app': event.appId,
+            //「申請者」フィールドがログインユーザと一致し、かつステータスが「申請中」である条件
             'query': '申請者 in (LOGINUSER()) and ステータス = "申請中"'
         };
 
