@@ -40,6 +40,7 @@
     }
     kintone.events.on("app.record.detail.process.proceed", putAuthorizer);
 
+    //作業者が自分になっているレコード件数を表示する
     function getRecords(event) {
         var params = {
             'app': event.appId,
